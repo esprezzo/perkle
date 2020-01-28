@@ -63,10 +63,10 @@ var (
 		EIP155Block:         big.NewInt(0),
 		EIP158Block:         big.NewInt(0),
 		ByzantiumBlock:      big.NewInt(0),
-		ConstantinopleBlock: big.NewInt(7280000),
-		PetersburgBlock:     big.NewInt(7280000),
-		IstanbulBlock:       big.NewInt(9069000),
-		MuirGlacierBlock:    big.NewInt(9200000),
+		ConstantinopleBlock: big.NewInt(3061997), // big.NewInt(7280000),
+		PetersburgBlock:     big.NewInt(3061998), //big.NewInt(7280000),
+		IstanbulBlock:       big.NewInt(3061999), //big.NewInt(9069000),
+		MuirGlacierBlock:    big.NewInt(3062000),
 		Ethash:              new(EthashConfig),
 	}
 
