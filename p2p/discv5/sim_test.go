@@ -279,7 +279,7 @@ func (s *simulation) launchNode(log bool) *Network {
 	s.nodectr++
 	binary.BigEndian.PutUint32(ip, num)
 	ip[0] = 10
-	addr := &net.UDPAddr{IP: ip, Port: 30303}
+	addr := &net.UDPAddr{IP: ip, Port: 30311}
 
 	transport := &simTransport{joinTime: time.Now(), sender: id, senderAddr: addr, sim: s, priv: key}
 	net, err := newNetwork(transport, key.PublicKey, "<no database>", nil)

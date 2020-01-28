@@ -71,7 +71,7 @@ func newUDPTest(t *testing.T) *udpTest {
 		pipe:       newpipe(),
 		localkey:   newkey(),
 		remotekey:  newkey(),
-		remoteaddr: &net.UDPAddr{IP: net.IP{10, 0, 1, 99}, Port: 30303},
+		remoteaddr: &net.UDPAddr{IP: net.IP{10, 0, 1, 99}, Port: 30311},
 	}
 
 	test.db, _ = enode.OpenDB("")
