@@ -63,7 +63,7 @@ var (
 		EIP155Block:         big.NewInt(0),
 		EIP158Block:         big.NewInt(0),
 		ByzantiumBlock:      big.NewInt(0),
-		ConstantinopleBlock: big.NewInt(3077000),
+		ConstantinopleBlock: big.NewInt(3077000), 
 		PetersburgBlock:     big.NewInt(3077001), 
 		IstanbulBlock:       big.NewInt(3077002), 
 		MuirGlacierBlock:    big.NewInt(3077003),
@@ -72,10 +72,15 @@ var (
 
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{
-		SectionIndex: 283,
-		SectionHead:  common.HexToHash("0x7da9639e5b378421f2cabd1d3bdae02dbf6d4ba79fc9b3c3916c66412ef7d0b6"),
-		CHTRoot:      common.HexToHash("0xb8c6f06e1d5a4fddf593d1ff787e6b89eff4183d0b40d276f19e7d41178a53cf"),
-		BloomRoot:    common.HexToHash("0xc47d7d6924ba46090d568296bb667a3ea4b6a00dd69bd5fb4f4f78be2fe05ec2"),
+		// SectionIndex: 283,
+		// SectionHead:  common.HexToHash("0x7da9639e5b378421f2cabd1d3bdae02dbf6d4ba79fc9b3c3916c66412ef7d0b6"),
+		// CHTRoot:      common.HexToHash("0xb8c6f06e1d5a4fddf593d1ff787e6b89eff4183d0b40d276f19e7d41178a53cf"),
+		// BloomRoot:    common.HexToHash("0xc47d7d6924ba46090d568296bb667a3ea4b6a00dd69bd5fb4f4f78be2fe05ec2"),
+		SectionIndex: 92,
+		SectionHead:  common.HexToHash("0x5f6affcb02ab1aff7ed0f73277f4bc9d1692ebee340901db7f64cc7dfbf9035b"),
+		CHTRoot:      common.HexToHash("0x727bd6e149e11a0ae4392c8d35784bf4a71d061704f6bb046e06718f1f2cc7c7"),
+		BloomRoot:    common.HexToHash("0x0b61c2c4c8db368cb908b842e9c328848f0779343eb9647ac88f8f74bc9c2499"),
+		
 	}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
@@ -121,11 +126,6 @@ var (
 	TestnetCheckpointOracle = &CheckpointOracleConfig{
 		Address: common.HexToAddress("0xEF79475013f154E6A65b54cB2742867791bf0B84"),
 		Signers: []common.Address{
-			common.HexToAddress("0x32162F3581E88a5f62e8A61892B42C46E2c18f7b"), // Peter
-			common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
-			common.HexToAddress("0x286834935f4A8Cfb4FF4C77D5770C2775aE2b0E7"), // Zsolt
-			common.HexToAddress("0xb86e2B0Ab5A4B1373e40c51A7C712c70Ba2f9f8E"), // Gary
-			common.HexToAddress("0x0DF8fa387C602AE62559cC4aFa4972A7045d6707"), // Guillaume
 		},
 		Threshold: 2,
 	}
