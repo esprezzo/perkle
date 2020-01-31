@@ -1,5 +1,5 @@
 #!/bin/bash
-./build/bin/perkle \
+./perkle \
     --datadir ~/.perkle \
     --syncmode 'full' \
     --rpc \
