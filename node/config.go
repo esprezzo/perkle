@@ -288,13 +288,13 @@ func (c *Config) NodeName() string {
 	name := c.name()
 	// Backwards compatibility: previous versions used title-cased "Geth", keep that.
 	if name == "geth" || name == "geth-testnet" {
-		name = "Geth"
+		name = "Perkle"
 	}
 	if c.UserIdent != "" {
 		name += "/" + c.UserIdent
 	}
 	if c.Version != "" {
-		name += "/v" + c.Version
+		name += "/v0.2.1"
 	}
 	name += "/" + runtime.GOOS + "-" + runtime.GOARCH
 	name += "/" + runtime.Version()
