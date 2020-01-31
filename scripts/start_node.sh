@@ -1,11 +1,11 @@
 #!/bin/bash
-./build/bin/geth \
+./build/bin/perkle \
     --datadir ~/.perkle \
     --syncmode 'full' \
     --rpc \
     --rpcaddr '0.0.0.0' \
     --rpcport 8501 \
-    --rpcapi 'eth,net,web3,txpool,miner' \ # personal also avail
+    --rpcapi 'eth,net,web3,txpool' \ # personal, miner also avail
     --verbosity 3 \
     --rpccorsdomain="*" \
     --nousb \
