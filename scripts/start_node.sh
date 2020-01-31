@@ -6,7 +6,7 @@
     --rpc \
     --rpcaddr '0.0.0.0' \
     --rpcport 8501 \
-    --rpcapi 'db,eth,net,web3,txpool,miner' \
+    --rpcapi 'eth,net,web3,txpool,miner' \
     --verbosity 3 \
     --rpccorsdomain="*" \
     --rpcvhosts=*
