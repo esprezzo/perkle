@@ -5,7 +5,7 @@
     --rpc \
     --rpcaddr '0.0.0.0' \
     --rpcport 8501 \
-    --rpcapi 'eth,net,web3,txpool,miner' \
+    --rpcapi 'eth,net,web3,txpool,miner' \ # personal also avail
     --verbosity 3 \
     --rpccorsdomain="*" \
     --nousb \
