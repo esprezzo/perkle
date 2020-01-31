@@ -63,10 +63,10 @@ var (
 		EIP155Block:         big.NewInt(0),
 		EIP158Block:         big.NewInt(0),
 		ByzantiumBlock:      big.NewInt(0),
-		ConstantinopleBlock: big.NewInt(3061997), // big.NewInt(7280000),
-		PetersburgBlock:     big.NewInt(3061998), //big.NewInt(7280000),
-		IstanbulBlock:       big.NewInt(3061999), //big.NewInt(9069000),
-		MuirGlacierBlock:    big.NewInt(3062000),
+		ConstantinopleBlock: big.NewInt(3077000),
+		PetersburgBlock:     big.NewInt(3077001), 
+		IstanbulBlock:       big.NewInt(3077002), 
+		MuirGlacierBlock:    big.NewInt(3077003),
 		Ethash:              new(EthashConfig),
 	}
 
@@ -82,11 +82,11 @@ var (
 	MainnetCheckpointOracle = &CheckpointOracleConfig{
 		Address: common.HexToAddress("0x9a9070028361F7AAbeB3f2F2Dc07F82C4a98A02a"),
 		Signers: []common.Address{
-			common.HexToAddress("0x1b2C260efc720BE89101890E4Db589b44E950527"), // Peter
-			common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
-			common.HexToAddress("0x286834935f4A8Cfb4FF4C77D5770C2775aE2b0E7"), // Zsolt
-			common.HexToAddress("0xb86e2B0Ab5A4B1373e40c51A7C712c70Ba2f9f8E"), // Gary
-			common.HexToAddress("0x0DF8fa387C602AE62559cC4aFa4972A7045d6707"), // Guillaume
+			// common.HexToAddress("0x1b2C260efc720BE89101890E4Db589b44E950527"), // Peter
+			// common.HexToAddress("0x78d1aD571A1A09D60D9BBf25894b44e4C8859595"), // Martin
+			// common.HexToAddress("0x286834935f4A8Cfb4FF4C77D5770C2775aE2b0E7"), // Zsolt
+			// common.HexToAddress("0xb86e2B0Ab5A4B1373e40c51A7C712c70Ba2f9f8E"), // Gary
+			// common.HexToAddress("0x0DF8fa387C602AE62559cC4aFa4972A7045d6707"), // Guillaume
 		},
 		Threshold: 2,
 	}
