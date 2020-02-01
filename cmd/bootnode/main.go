@@ -36,7 +36,7 @@ import (
 
 func main() {
 	var (
-		listenAddr  = flag.String("addr", ":30311", "listen address")
+		listenAddr  = flag.String("addr", ":30310", "listen address")
 		genKey      = flag.String("genkey", "", "generate a node key")
 		writeAddr   = flag.Bool("writeaddress", false, "write out the node's public key and quit")
 		nodeKeyFile = flag.String("nodekey", "", "private key filename")
