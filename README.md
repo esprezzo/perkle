@@ -11,20 +11,7 @@ This package is the standard Go source code for the CLI toolkit. Once compiled y
 
 If you are looking for pre-compiled binaries please check the RELEASES page.
 
-To compile and run from source on Ubuntu you can use the following script:
-
-```
-#!/bin/bash
-sudo apt-get install -y build-essential golang;
-git clone https://github.com/esprezzo/perkle.git
-./perkle/scripts/build_all.sh;
-./perkle/scripts/start_node.sh;
-```
-
 ## Executables
-
-The go-ethereum project comes with several wrappers/executables found in the `cmd`
-directory.
 
 |    Command    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 | :-----------: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
