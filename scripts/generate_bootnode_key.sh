@@ -1,2 +1,2 @@
 #!/bin/bash
-bootnode -genkey ~/.perkle_bootnode.key
+./build/bin/bootnode -genkey ~/.perkle_bootnode.key
