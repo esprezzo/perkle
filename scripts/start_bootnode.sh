@@ -1,2 +1,2 @@
 #!/bin/bash
-./perkle/build/bin/bootnode -nodekey ~/.perkle/boot.key -verbosity 4
+./perkle/build/bin/bootnode -nodekey ~/.perkle_bootnode.key -verbosity 4
