@@ -1,4 +1,6 @@
 #!/bin/bash
 rm -rf ~/.perkle/geth/chaindata;
 rm -rf ~/.perkle/geth/lightchaindata;
-rm -rf ~/.perkle/geth;
+make clean
+make all && mv ./build/bin/geth ./build/bin/perkle
+./scripts/init_node.sh

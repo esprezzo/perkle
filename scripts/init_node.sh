@@ -1,2 +1,2 @@
 #!/bin/bash
-./perkle --datadir ~/.perkle/ init embark.json
+./build/bin/perkle --datadir ~/.perkle/ init ./scripts/embark.json

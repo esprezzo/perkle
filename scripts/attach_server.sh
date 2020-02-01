@@ -1,3 +1,3 @@
 #!/bin/bash
 # Connect javascript console to node
-./perkle attach ~/.perkle/geth.ipc
+./build/bin/perkle attach ~/.perkle/geth.ipc
