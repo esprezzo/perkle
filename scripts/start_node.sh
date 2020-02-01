@@ -2,7 +2,7 @@
 ./build/bin/perkle \
     --datadir ~/.perkle \
     --syncmode 'full' \
-    --verbosity 4 \
+    --verbosity 3 \
     --rpccorsdomain="*" \
     --nousb \
     --rpcvhosts=*
