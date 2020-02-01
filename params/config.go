@@ -27,7 +27,6 @@ import (
 
 // Genesis hashes to enforce below configs on.
 var (
-	//MainnetGenesisHash = common.HexToHash("0xcfc71723fb89d562ca7fa50d2c0284f0a419dca92e657de0514e68a3eb902485")
 	MainnetGenesisHash = common.HexToHash("0x743f1dfddab15d1a7a4a5c2c8ac25a23c540fe8bbbdde5231b0704be063b2c72")
 	TestnetGenesisHash = common.HexToHash("0x41941023680923e0fe4d74a34bdac8141f2540e3ae90623718e47d66d1ca4a2d")
 	RinkebyGenesisHash = common.HexToHash("0x6341fd3daf94b748c72ced5a5b26028f2474f5f00d824504e4fa37a75767e177")
@@ -77,7 +76,6 @@ var (
 		SectionHead:  common.HexToHash("0x5f6affcb02ab1aff7ed0f73277f4bc9d1692ebee340901db7f64cc7dfbf9035b"),
 		CHTRoot:      common.HexToHash("0x727bd6e149e11a0ae4392c8d35784bf4a71d061704f6bb046e06718f1f2cc7c7"),
 		BloomRoot:    common.HexToHash("0x0b61c2c4c8db368cb908b842e9c328848f0779343eb9647ac88f8f74bc9c2499"),
-		
 	}
 
 	// MainnetCheckpointOracle contains a set of configs for the main network oracle.
