@@ -1,5 +1,5 @@
 #!/bin/bash
-./perkle \
+./build/bin/perkle \
     --datadir ~/.perkle \
     --syncmode 'full' \
     --verbosity 3 \
