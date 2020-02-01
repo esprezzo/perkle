@@ -69,7 +69,7 @@ var (
 		MuirGlacierBlock:    big.NewInt(3100003),
 		Ethash:              new(EthashConfig),
 	}
-
+ 
 	// MainnetTrustedCheckpoint contains the light client trusted checkpoint for the main network.
 	MainnetTrustedCheckpoint = &TrustedCheckpoint{
 		SectionIndex: 92,
