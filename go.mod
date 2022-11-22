@@ -3,9 +3,7 @@ module github.com/ethereum/go-ethereum
 go 1.13
 
 require (
-	github.com/Azure/azure-pipeline-go v0.2.2 // indirect
-	github.com/Azure/azure-storage-blob-go v0.7.0
-	github.com/Azure/go-autorest/autorest/adal v0.8.0 // indirect
+	github.com/Azure/azure-storage-blob-go v0.15.0
 	github.com/VictoriaMetrics/fastcache v1.12.0
 	github.com/aristanetworks/goarista v0.0.0-20221101123548-fda6a90d1d2b
 	github.com/aws/aws-sdk-go v1.25.48
