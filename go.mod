@@ -10,7 +10,7 @@ require (
 	github.com/aristanetworks/goarista v0.0.0-20221101123548-fda6a90d1d2b
 	github.com/aws/aws-sdk-go v1.25.48
 	github.com/btcsuite/btcd v0.0.0-20171128150713-2e60448ffcc6
-	github.com/cespare/cp v0.1.0
+	github.com/cespare/cp v1.1.1
 	github.com/cloudflare/cloudflare-go v0.10.2-0.20190916151808-a80f83b9add9
 	github.com/davecgh/go-spew v1.1.1
 	github.com/deckarep/golang-set v0.0.0-20180603214616-504e848d77ea
