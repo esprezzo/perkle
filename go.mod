@@ -58,7 +58,7 @@ require (
 	golang.org/x/sync v0.1.0
 	golang.org/x/sys v0.2.0
 	golang.org/x/text v0.4.0
-	golang.org/x/time v0.1.0
+	golang.org/x/time v0.2.0
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
 	gopkg.in/olebedev/go-duktape.v3 v3.0.0-20190213234257-ec84240a7772
 	gopkg.in/urfave/cli.v1 v1.20.0
