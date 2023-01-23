@@ -20,7 +20,7 @@ require (
 	github.com/dop251/goja v0.0.0-20200219165308-d1232e640a87 // unescape()
 	github.com/edsrzf/mmap-go v0.0.0-20160512033002-935e0e8a636c
 	github.com/elastic/gosigar v0.14.2
-	github.com/fatih/color v1.3.0
+	github.com/fatih/color v1.14.1
 	github.com/fjl/memsize v0.0.0-20180418122429-ca190fb6ffbc
 	github.com/gballet/go-libpcsclite v0.0.0-20190607065134-2772fd86a8ff
 	github.com/go-sourcemap/sourcemap v2.1.2+incompatible // indirect
@@ -36,7 +36,7 @@ require (
 	github.com/julienschmidt/httprouter v1.3.0
 	github.com/karalabe/usb v0.0.0-20190919080040-51dc0efba356
 	github.com/mattn/go-colorable v0.1.13
-	github.com/mattn/go-isatty v0.0.16
+	github.com/mattn/go-isatty v0.0.17
 	github.com/naoina/go-stringutil v0.1.0 // indirect
 	github.com/naoina/toml v0.1.2-0.20170918210437-9fafd6967416
 	github.com/olekukonko/tablewriter v0.0.2-0.20190409134802-7e037d187b0c
@@ -56,7 +56,7 @@ require (
 	github.com/wsddn/go-ecdh v0.0.0-20161211032359-48726bab9208
 	golang.org/x/crypto v0.3.0
 	golang.org/x/sync v0.1.0
-	golang.org/x/sys v0.2.0
+	golang.org/x/sys v0.3.0
 	golang.org/x/text v0.4.0
 	golang.org/x/time v0.1.0
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce
