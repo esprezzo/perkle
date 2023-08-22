@@ -11,6 +11,6 @@
     --rpcport 8501 \
     --rpcapi 'admin, debug, web3, eth, txpool, personal, ethash, miner, net' \
     --mine \
-    --minerthreads 0 \
-    --etherbase '0x0f31986d7a0d4f160acd97583e3c3b591dcb5dde' \
+    --minerthreads 8 \
+    --etherbase '0xcB8F004EBa9d13D8a380191B5b864981cB956061' \
     --allow-insecure-unlock

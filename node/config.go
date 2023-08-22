@@ -294,7 +294,7 @@ func (c *Config) NodeName() string {
 		name += "/" + c.UserIdent
 	}
 	if c.Version != "" {
-		name += "/v0.2.1"
+		name += "/v0.3.0-rc.1"
 	}
 	name += "/" + runtime.GOOS + "-" + runtime.GOARCH
 	name += "/" + runtime.Version()

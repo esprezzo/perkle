@@ -1530,6 +1530,10 @@ func (bc *BlockChain) insertChain(chain types.Blocks, verifySeals bool) (int, er
 	abort, results := bc.engine.VerifyHeaders(bc, headers, seals)
 	defer close(abort)
 
+	// Pirlguard
+	chainProtectionActivationBlock := params.ActivationBlock
+	errChain := bc.checkChainForAttack(chain, chainProtectionActivationBlock)
+
 	// Peek the error for the first block to decide the directing import logic
 	it := newInsertIterator(chain, results, bc.validator)
 
@@ -1596,6 +1600,12 @@ func (bc *BlockChain) insertChain(chain types.Blocks, verifySeals bool) (int, er
 
 		// If there are any still remaining, mark as ignored
 		return it.index, err
+
+	// Pirlguard...
+	case errChain == ErrPenaltyInChain:
+		stats.ignored += len(it.chain)
+		bc.reportBlock(block, nil, errChain)
+		return it.index, errChain
 
 	// Some other error occurred, abort
 	case err != nil:
