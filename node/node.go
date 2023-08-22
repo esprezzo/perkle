@@ -357,7 +357,7 @@ func (n *Node) startIPC(apis []rpc.API) error {
 	fmt.Println(`    \|_____|      \|____|   | | |_____|/ \|_____||_____|/  |____|/   |______|/|____|/ \|____|   | |  `)
 	fmt.Println(`                        |___|/                                                              |___|/   `)
 	fmt.Println("")
-	color.Yellow("       Perkle Version 0.2.1 - Entropic Excursion - Join our Discord @ https://discord.gg/8SDJtnz ")
+	color.Yellow("                                Perkle Version 0.3.0-rc.1 - Shields Up!!!")
 	fmt.Println("")
 	return nil
 }
